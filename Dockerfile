@@ -40,7 +40,7 @@ COPY assets/purple-nebula-wallpaper-for-2560x1440-62-712.jpg  /usr/share/extra/b
 #COPY config/terminator.toml .config/terminator/config
 
 # Install XFCE Dark Theme
-#RUN apt install numix-gtk-theme
+RUN apt install numix-gtk-theme
 
 
 ######### End Customizations ###########
